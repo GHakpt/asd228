@@ -7,7 +7,7 @@ import time
 from time import sleep
 import random
  
-app = Client("my_account")
+app = Client("userbot")
 
 app.start()
 
