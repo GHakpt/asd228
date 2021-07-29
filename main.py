@@ -28,25 +28,7 @@ async def enable_spam(_, message):
         await message.reply_text(spam_text)
         sleep(delay2)
         
-spam_text2 = 'слот 1000000, 🕸️ im AFK right now:^3'
-@app.on_message(filters.command('слот2', prefixes='.') & filters.me)
-async def enable_spam(_, message):
-    await message.delete()
-    cmd = message.text.split()
-    for i in range(int(cmd[1])):
-        sleep(delay)
-        await message.reply_text(spam_text2)
-        sleep(delay2)
 
-spam_text3 = 'слот 100000, 🕸️ im AFK right now:^3'
-@app.on_message(filters.command('слот3', prefixes='.') & filters.me)
-async def enable_spam(_, message):
-    await message.delete()
-    cmd = message.text.split()
-    for i in range(int(cmd[1])):
-        sleep(delay)
-        await message.reply_text(spam_text2)
-        sleep(delay2)
 
     
 
