@@ -15,7 +15,7 @@ app.stop()
 
 print('Бот запущен')
 
-spam_text = 'слот 1000000000, 🕸️ im AFK right now:^3'
+spam_text = '14'
 delay = 0.150
 delay2 = 0.50
 
